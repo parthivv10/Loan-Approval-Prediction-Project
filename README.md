@@ -20,9 +20,7 @@ How to Run the App:
 
   Prerequisites
   Ensure you have the following installed:
-    Python 3.x
-    Jupyter Notebook
-    Streamlit
+    Python 3.x,Jupyter Notebook, Streamlit
   Installation
     Install the required Python libraries using the following command:
       pip install pandas numpy scikit-learn matplotlib seaborn streamlit
