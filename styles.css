@@ -1,0 +1,116 @@
+
+body {
+    background-image: url("1504132.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif; 
+    color: #0057c1; 
+}
+.title {
+    color: #03358b; 
+    text-align: center; 
+    
+    font-size: 42px; 
+    font-weight: bold; 
+    margin-top: 20px; 
+    padding: 10px; 
+    background-color: rgba(255, 255, 255, 0.904); 
+    border-radius: 10px;}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #03358b;
+    position: center; 
+    
+}
+h1 {
+    font-size: 100px; 
+    font-weight: bold; 
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+}
+
+a {
+    color: #FF5733; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.stSlider > div > div > div > input[type=range] {
+    accent-color: #d27e09; 
+    -webkit-appearance: none; 
+    appearance: none; 
+    width: 100%; 
+    height: 8px; 
+    background: #03358b;
+    outline: none; 
+    opacity: 0.7; 
+    transition: opacity 0.2s;
+}
+
+.stSlider > div > div > div > input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none; 
+    width: 20px; 
+    height: 20px; 
+    background: #dfa402; 
+    cursor: pointer; 
+    border-radius: 50%; 
+}
+
+.stSlider > div > div > div > input[type=range]::-moz-range-thumb {
+    width: 20px; 
+    background: #f19e02; 
+    cursor: pointer; 
+    border-radius: 50%; 
+}
+
+
+.stButton > button {
+    background-color: #03358b;
+    color: #FFFFFF;
+    border: none; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+.stButton > button:hover {
+    color: #FFFFFF;
+    background-color: #03358b;
+}
+
+
+.stSelectbox > div > div > div > div {
+   
+    color: #c9a506; 
+    
+}
+
+.stSelectbox > div > div > div > div:hover {
+    background-color: #03358b; 
+    color: #FFFFFF; 
+}
+
+
+.loan-approved {
+    font-size: 24px;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.loan-rejected {
+    font-size: 24px;
+    color: rgba(182, 6, 6, 0.928);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
